@@ -1,0 +1,16 @@
+{
+  "project": "Market Data Engine",
+  "symbol": null,
+  "dataset": {
+    "binlog": "artifacts/captured.binlog",
+    "source": "kraken_depth_rest"
+  },
+  "events": 200000,
+  "throughput_msgs_per_sec": 20443712.38,
+  "replay_duration_seconds": 0.009782959,
+  "parse_duration_seconds": 0.084782541,
+  "deterministic_replay": true,
+  "final_state_hash": "12411451188680954860",
+  "csv_state_hash": "12411451188680954860",
+  "binlog_state_hash": "12411451188680954860"
+}

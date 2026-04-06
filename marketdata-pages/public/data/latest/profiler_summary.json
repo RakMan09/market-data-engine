@@ -1,0 +1,10 @@
+{
+  "replay_duration_seconds": 0.009782959,
+  "throughput_msgs_per_sec": 20443712.38,
+  "latency_seconds": {
+    "p50": 1.25e-7,
+    "p95": 0.000001042,
+    "p99": 0.00000725,
+    "max": 0.00000725
+  }
+}

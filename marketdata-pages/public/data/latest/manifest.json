@@ -1,0 +1,93 @@
+{
+  "generated_at_utc": "2026-04-06T23:21:33.408Z",
+  "source_dir": "/Users/raksh/Desktop/Low latency market/artifacts",
+  "published": [
+    {
+      "file": "bench_book.json",
+      "as": "bench_book.json",
+      "bytes": 1129
+    },
+    {
+      "file": "bench_replay.json",
+      "as": "bench_replay.json",
+      "bytes": 1614
+    },
+    {
+      "file": "book_samples.csv",
+      "as": "book_samples.csv",
+      "bytes": 278
+    },
+    {
+      "file": "metadata.json",
+      "as": "metadata.json",
+      "bytes": 488
+    },
+    {
+      "file": "metrics.json",
+      "as": "metrics.json",
+      "bytes": 331
+    },
+    {
+      "file": "report.md",
+      "as": "report.md",
+      "bytes": 167
+    },
+    {
+      "file": "summary.txt",
+      "as": "replay_summary.txt",
+      "bytes": 350
+    },
+    {
+      "file": "top_of_book.csv",
+      "as": "top_of_book.csv",
+      "bytes": 8312
+    }
+  ],
+  "derived": [
+    {
+      "file": "summary.json",
+      "reason": "derived from metadata.json, metrics.json, and replay_summary.txt",
+      "mode": "updated"
+    },
+    {
+      "file": "state_hash.json",
+      "reason": "derived from metrics.json and replay_summary.txt",
+      "mode": "updated"
+    },
+    {
+      "file": "tob_timeseries.json",
+      "reason": "derived from top_of_book.csv or book_samples.csv",
+      "mode": "updated"
+    },
+    {
+      "file": "spread_timeseries.json",
+      "reason": "derived from top-of-book series",
+      "mode": "updated"
+    },
+    {
+      "file": "depth_snapshots.json",
+      "reason": "synthetic depth around top-of-book for dashboard visualization",
+      "mode": "updated"
+    },
+    {
+      "file": "correctness_report.json",
+      "reason": "derived from series and replay summary",
+      "mode": "updated"
+    },
+    {
+      "file": "benchmark_summary.json",
+      "reason": "derived from bench_book.json and bench_replay.json",
+      "mode": "updated"
+    },
+    {
+      "file": "profiler_summary.json",
+      "reason": "derived from metrics and replay summary",
+      "mode": "updated"
+    }
+  ],
+  "skipped": [
+    ".gitkeep",
+    "captured.binlog",
+    "events.binlog"
+  ]
+}

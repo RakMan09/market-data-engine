@@ -1,0 +1,17 @@
+{
+  "book_apply_seconds_per_op": 6e-8,
+  "book_apply_cpu_seconds_per_op": 5.8e-8,
+  "replay_cases": [
+    {
+      "name": "BM_Replay/10000",
+      "seconds_per_iter": 0.00037779,
+      "items_per_second": 26501766.78445228
+    },
+    {
+      "name": "BM_Replay/100000",
+      "seconds_per_iter": 0.003377111,
+      "items_per_second": 29611351.01789025
+    }
+  ],
+  "replay_max_items_per_second": 29611351.01789025
+}

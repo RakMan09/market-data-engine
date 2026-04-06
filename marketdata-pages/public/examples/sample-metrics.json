@@ -1,0 +1,15 @@
+{
+  "events": 200000,
+  "throughput_msgs_per_sec": 24500000,
+  "replay_wall_ns": 8400000,
+  "deterministic": true,
+  "book_state_hash": "1453209871234556678",
+  "latency": {
+    "p50_ns": 90,
+    "p95_ns": 420,
+    "p99_ns": 780,
+    "min_ns": 24,
+    "max_ns": 2300,
+    "mean_ns": 140
+  }
+}

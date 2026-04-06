@@ -1,0 +1,13 @@
+{
+  "deterministic": true,
+  "replay_equivalence": {
+    "csv_vs_binlog": true,
+    "csv_hash": "1453209871234556678",
+    "binlog_hash": "1453209871234556678"
+  },
+  "invariants": {
+    "no_crossed_book": true,
+    "nonnegative_qty": true,
+    "sequence_monotonic": true
+  }
+}

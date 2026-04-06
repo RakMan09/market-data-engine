@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#09121e"/>
+  <rect x="40" y="40" width="1120" height="120" rx="14" fill="#12263d" stroke="#2e4d70"/>
+  <text x="70" y="95" fill="#dce7f6" font-family="sans-serif" font-size="34">Market Data Engine</text>
+  <text x="70" y="128" fill="#8aa0b6" font-family="sans-serif" font-size="18">Dashboard for replay, performance, and correctness artifacts</text>
+  <rect x="40" y="190" width="260" height="140" rx="12" fill="#13253b" stroke="#2e4d70"/>
+  <rect x="320" y="190" width="260" height="140" rx="12" fill="#13253b" stroke="#2e4d70"/>
+  <rect x="600" y="190" width="260" height="140" rx="12" fill="#13253b" stroke="#2e4d70"/>
+  <rect x="880" y="190" width="280" height="140" rx="12" fill="#13253b" stroke="#2e4d70"/>
+  <text x="65" y="230" fill="#8aa0b6" font-family="sans-serif" font-size="16">Messages Processed</text>
+  <text x="65" y="275" fill="#dce7f6" font-family="sans-serif" font-size="30">200,000</text>
+  <text x="345" y="230" fill="#8aa0b6" font-family="sans-serif" font-size="16">Throughput</text>
+  <text x="345" y="275" fill="#dce7f6" font-family="sans-serif" font-size="30">24.5M msg/s</text>
+  <text x="625" y="230" fill="#8aa0b6" font-family="sans-serif" font-size="16">p99 Latency</text>
+  <text x="625" y="275" fill="#dce7f6" font-family="sans-serif" font-size="30">780 ns</text>
+  <text x="905" y="230" fill="#8aa0b6" font-family="sans-serif" font-size="16">Deterministic Replay</text>
+  <text x="905" y="275" fill="#22d18a" font-family="sans-serif" font-size="30">PASS</text>
+</svg>

@@ -1,0 +1,36 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test-bench:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ninja-build cmake g++ python3 libcurl4-openssl-dev
+
+      - name: Configure
+        run: cmake -S . -B build -GNinja -DCMAKE_BUILD_TYPE=Release
+
+      - name: Build
+        run: cmake --build build -j
+
+      - name: Test
+        run: ctest --test-dir build --output-on-failure
+
+      - name: Bench smoke
+        run: |
+          mkdir -p artifacts
+          ./build/bench_book --benchmark_min_time=0.01s --benchmark_out=artifacts/ci_bench_book.json --benchmark_out_format=json
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: marketdata-cpp-ci-artifacts
+          path: artifacts/

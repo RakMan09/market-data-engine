@@ -1,0 +1,10 @@
+marketdata-cpp summary
+input_csv=data/processed/BTCUSDT-aggTrades-2024-01-01-sample.csv
+events=200000
+parse_ns=84782541
+replay_ns=9782959
+throughput_eps=20443712.38
+csv_state_hash=12411451188680954860
+binlog_state_hash=12411451188680954860
+state_equivalent=true
+final_top=bid_px_fp=4218076990,bid_qty_fp=69000,ask_px_fp=4236129000,ask_qty_fp=3287000

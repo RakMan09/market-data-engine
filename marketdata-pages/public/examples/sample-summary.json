@@ -1,0 +1,6 @@
+{
+  "project": "Market Data Engine",
+  "symbol": "XBTUSD",
+  "deterministic_replay": true,
+  "notes": "Example data generated for local development."
+}

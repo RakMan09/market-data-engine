@@ -1,0 +1,21 @@
+{
+  "build": {
+    "compiler": "c++20",
+    "mode": "release"
+  },
+  "config": {
+    "pace": false,
+    "sample_interval": 10,
+    "speed_multiplier": 1.0
+  },
+  "dataset": {
+    "binlog": "artifacts/captured.binlog",
+    "source": "kraken_depth_rest"
+  },
+  "dataset_hashes": {
+    "binlog_sha256": "51852810737bb7a7c1029768869e9987f58a7af9f98d9f1846e802f9482fb51e"
+  },
+  "git_sha": "unknown",
+  "run_finished_utc": "2026-04-06T01:32:55Z",
+  "run_started_utc": "2026-04-06T01:32:55Z"
+}

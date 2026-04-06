@@ -1,0 +1,16 @@
+{
+  "book_state_hash": 11358104308570565016,
+  "deterministic": true,
+  "events": 46,
+  "latency": {
+    "count": 46,
+    "max_ns": 7250,
+    "mean_ns": 357.7391304347826,
+    "min_ns": 41,
+    "p50_ns": 125,
+    "p95_ns": 1042,
+    "p99_ns": 7250
+  },
+  "replay_wall_ns": 847333,
+  "throughput_msgs_per_sec": 54287.983590866876
+}

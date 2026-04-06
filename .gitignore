@@ -1,0 +1,14 @@
+/build/
+/.cache/
+/.idea/
+/.vscode/
+/artifacts/*.json
+/artifacts/*.txt
+/artifacts/*.csv
+/artifacts/*.binlog
+/artifacts/*.data
+/artifacts/*.svg
+/data/raw/*.zip
+/data/raw/*.CHECKSUM
+/data/raw/*.csv
+/data/processed/*.csv

@@ -1,0 +1,66 @@
+{
+  "context": {
+    "date": "2026-04-05T20:49:57-04:00",
+    "host_name": "MacBook-Air.local",
+    "executable": "./build/bench_replay",
+    "num_cpus": 8,
+    "mhz_per_cpu": 24,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 65536,
+        "num_sharing": 0
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 131072,
+        "num_sharing": 0
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 4194304,
+        "num_sharing": 1
+      }
+    ],
+    "load_avg": [15.686,7.01709,5.42041],
+    "library_version": "v1.8.4",
+    "library_build_type": "release",
+    "json_schema_version": 1
+  },
+  "benchmarks": [
+    {
+      "name": "BM_Replay/10000",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_Replay/10000",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 111,
+      "real_time": 3.7779016126584902e+05,
+      "cpu_time": 3.7733333333333360e+05,
+      "time_unit": "ns",
+      "items_per_second": 2.6501766784452278e+07
+    },
+    {
+      "name": "BM_Replay/100000",
+      "family_index": 0,
+      "per_family_instance_index": 1,
+      "run_name": "BM_Replay/100000",
+      "run_type": "iteration",
+      "repetitions": 1,
+      "repetition_index": 0,
+      "threads": 1,
+      "iterations": 12,
+      "real_time": 3.3771111823928854e+06,
+      "cpu_time": 3.3770833333333270e+06,
+      "time_unit": "ns",
+      "items_per_second": 2.9611351017890248e+07
+    }
+  ]
+}
