@@ -4,6 +4,8 @@ Deterministic **L2 market data capture -> normalize -> binlog -> replay** engine
 
 This repository focuses on low-latency systems engineering with deterministic replay, benchmark/profiling discipline, and reproducible artifacts.
 
+Project site: [https://market-data-engine.pages.dev/](https://market-data-engine.pages.dev/)
+
 ## Implementation Summary
 
 - Live public L2 ingestion from Kraken depth feed (`capture`)
