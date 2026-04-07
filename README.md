@@ -1,10 +1,10 @@
 # marketdata-cpp
 
-Project A compliant implementation: deterministic **L2 market data capture -> normalize -> binlog -> replay** engine in C++20.
+Deterministic **L2 market data capture -> normalize -> binlog -> replay** engine in C++20.
 
-This repository targets college-scale, production-style systems work for trading-firm new-grad interviews: low-latency design, deterministic replay, benchmark/profiling discipline, and reproducible artifacts.
+This repository focuses on low-latency systems engineering with deterministic replay, benchmark/profiling discipline, and reproducible artifacts.
 
-## Project A Compliance Summary
+## Implementation Summary
 
 - Live public L2 ingestion from Kraken depth feed (`capture`)
 - Canonical fixed-point event model (`MarketEvent`, 64-byte)

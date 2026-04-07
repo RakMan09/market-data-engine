@@ -110,7 +110,7 @@ export const HomePage = () => {
           </a>
           <a href="/artifacts">Browse raw artifacts</a>
           <a href="/architecture">Architecture view</a>
-          <a href="/performance">Performance evidence</a>
+          <a href="/performance">Performance</a>
         </div>
       </SectionCard>
     </>

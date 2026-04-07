@@ -2,7 +2,7 @@
 
 Static Cloudflare Pages website for **Market Data Engine** artifacts from `marketdata_cpp`.
 
-This repository is intentionally frontend-only: it does not rebuild or run the C++ engine. It renders published artifact files and proves the backend actually executed deterministic replay, L2 updates, and performance checks.
+This repository is intentionally frontend-only: it does not rebuild or run the C++ engine. It renders published artifact files and shows backend deterministic replay, L2 updates, and performance outputs.
 
 ## Relationship To `marketdata_cpp`
 
