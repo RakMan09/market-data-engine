@@ -1,4 +1,4 @@
-# marketdata-cpp
+# Market Data Engine
 
 Deterministic **L2 market data capture -> normalize -> binlog -> replay** engine in C++20.
 
