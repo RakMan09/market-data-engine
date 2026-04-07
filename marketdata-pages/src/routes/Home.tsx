@@ -102,10 +102,10 @@ export const HomePage = () => {
       <SectionCard title="System Context" subtitle="How this dashboard is assembled.">
         <p>{siteProvenance}</p>
         <div className="link-row">
-          <a href="https://github.com/your-org/marketdata_cpp" target="_blank" rel="noreferrer">
+          <a href="https://github.com/RakMan09/market-data-engine" target="_blank" rel="noreferrer">
             Backend repo
           </a>
-          <a href="https://github.com/your-org/marketdata-pages" target="_blank" rel="noreferrer">
+          <a href="https://github.com/RakMan09/market-data-engine" target="_blank" rel="noreferrer">
             Website repo
           </a>
           <a href="/artifacts">Browse raw artifacts</a>
